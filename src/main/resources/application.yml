@@ -1,0 +1,16 @@
+server:
+  port: 9090
+  
+spring:      
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:2003/hackernews
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+      
+cache:
+  expire_time: 15
+  
+  
